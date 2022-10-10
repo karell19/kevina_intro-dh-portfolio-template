@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Week 3 Python Basics I, Crash Course Exercises
-description: This notebook contains my attempts of Chapter 2's Python exercises.
+title: Python Basics I, Crash Course Exercises Ch. 02
+description: This notebook contains my attempts of Chapter 02's Python exercises.
 ---
 
 ## Week 3: Python Basics I, Crash Course Exercises
