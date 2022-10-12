@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mapping Inequality: Redlining in New Deal America
+title: Mapping Inequality, Redlining in New Deal America
 description: An evaluation of the Mapping Inequality project.
 ---
 
