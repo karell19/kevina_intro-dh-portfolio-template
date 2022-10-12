@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Finding Places in Text with the World Historical Gazeteer
-description: This Programming Historian lesson has taught me about those resources available to digital historians
+description: This Programming Historian lesson has taught me about the resources available to digital historians
 that allow them to learn about geographical locations mentioned throughout texts, and further, to visualize
 such locations for reconciliation and geocoding purposes. 
 ---
