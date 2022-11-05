@@ -12,19 +12,6 @@ CLS-0161 -- Introduction to Digital Humanities
 
 Professor Saxton
 
-#### What is a List?
-* List = Collection of items in a particular order.
-    * Indicated by ([]), with individual elements seperated by commas.
-
-#### Accessing Elements in a List
-* List elements are accessed through 0-based indices.
-    * list[-1] = Accesses list's last element.
-    * list[-2] = Accesses list's second-to-last element.
-    * ... etc.
-    
-#### Using Individual Values from a List
-* Deriving elements from lists using indices treats them like a variable, and we can then use them in f-strings for printing their value.
-
 #### Exercise 3-1. Names:
 
 
@@ -73,47 +60,6 @@ for line in train_lines:
     Sorry, I gotta catch the L!
 
 
-#### Changing, Adding, and Removing Elements
-* Most lists will be dynamic, with the addition and/or removal of elements throughout program's course.
-
-#### Modifying Elements in a List
-* To change element:
-
-  list[i] = ...
-  
-#### Appending Elements to the End of a List
-* list.append('...')
-
-* To make an empty list:
-
-    list = []
-
-#### Inserting Elements into a List
-* list.insert(index, '...')
-
-    Places element at such index, then moves each element to the right of it, one more index to the right.
-    
-#### Removing an Item Using the del Statement
-* del list[index]
-
-    For when position in list is known.
-
-#### Removing an Item Using the pop( ) Method
-* list.pop()
-
-    Removes, yet allows user to continue utilizing, the last element of a list.
-
-* list.pop(index)
-
-    Removes, yet allows user to continue utilizing, elements from a list.
-    
-#### Removing an Item by Value
-* list.remove('...')
-
-    For when index of value to-be removed is not known, so we remove by value.
-
-    Deletes only first occurence of value.
-    
 #### 3-4. Guest List:
 
 
@@ -214,40 +160,6 @@ for invitee in invitees:
     print(f'{invitee.title()} is still on this list.')
 ```
 
-#### Organizing a List
-* Lists may be built in unpredictable orders.
-* Methods for list organization in certain orders are possible.
-
-#### Sorting a List Permanently with the sort( ) Method
-* list.sort()
-
-    Permanently sorts list alphabetically, cannot be reverted to original order.
-    
-* list.sort(reverse = True)
-
-    sort() method, sorts reverse alphabetically, and permanently so.
-    
-#### Sorting a List Temporarily with the sorted( ) Function
-* sorted(list)
-
-    Allows for temporary display/use of a sorted list. Actual list not affected in any way.
-
-* sorted(list, reverse = True)
-
-    Temporary sorted() method, reverse alphabetically.
-
-* Sorting capital and lower-case letters is a tad-bit more complicated, probably, perhaps, maybe, because of ASCII values?
-
-#### Printing a list in Reverse Order
-* list.reverse()
-
-    Permanently reverses the order of a list, although a second use of reverse() would return it back to normal.
-    
-#### Finding the Length of a List
-* len(list)
-
-    Gives the length value of a list. 
-    
 #### 3-8. Seeing the World:
 
 
@@ -381,10 +293,6 @@ else:
 
     I am inviting 0 guests to dinner.
 
-
-#### Avoiding Index Errors When Working with Lists
-* Attempting to acces non-existent indices.
-* Requesting -1th item from an empty list
 
 #### 3-11. Intentional Error:
 

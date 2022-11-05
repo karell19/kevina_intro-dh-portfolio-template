@@ -12,27 +12,6 @@ CLS-0161 -- Introduction to Digital Humanities
 
 Professor Saxton
 
-#### Looping Through an Entire List
-* for loop.
-
-#### A Closer Look at Looping
-* for cat in cats:
-
-    singular, plural is generally ideal.
-    
-#### Avoiding Indentation Errors
-* Indentation used to determine relation between a series of lines of code to each-other, and to the program overall.
-
-#### Forgetting to Indent
-* When a for loop iterates through a list, when the for loop ends, the initialized iterator will hold a final value derived with the for loop's final iteration.
-    * Thus, we can still access the iterator's value, however, it will be the lastly iterated value.
-
-#### Indenting Unnecessarily
-* Unneeded indents give a line of code relation to other lines of code where they do not exist.
-
-#### Forgetting the Colon
-* Colons tell Python to interpret the following indented line as part of a for loop.
-
 #### 4-1. Pizzas:
 
 
@@ -74,56 +53,6 @@ print('All of these animals are mammals and vertebrates!')
     We learned about dolphin anatomy in class today.
     All of these animals are mammals and vertebrates!
 
-
-#### Making Numerical Lists
-* Python has many tools for working with lists of numbers.
-#### Using the range( ) Function
-* Use range() to print series of numbers:
-
-    ##### # Prints 1-4, excluding 5.
-    for value in range(1, 5):
-        print(value)
-
-* Use range() to begin to sequence numbers from 0:
-
-    ##### # Prints 0-5, beginning to sequence from 0-5, excluding 6.
-    for value in range(6):
-        print(value)
-
-#### Using range( ) to Make a List of Numbers
-* numbers = list(range(1, 6))
-
-    Composes a list, titled numbers, of numbers from 1-5.
-    
-    
-* even_numbers = list(range(2, 11, x)
-
-    Makes a list, titled even_numbers, incrementing by x while sequencing from 2 until it reaches/passes 11. Therefore, captures only even numbers.
-    
-    = [2, 4, 6, 8, 10]
-
-#### Simple Statistics with a List of Numbers
-* min(list_num)
-
-    Gives minimum number value in a list.
-    
-
-* max(list_num)
-
-    Gives maximum number value in a list.
-    
-    
-* sum(list_num)
-    
-    Gives the sum of all values in a list.
-    
-    
-* These statistic functions work rapidly, even on large lists of numbers.
-
-#### List Comprehensions
-* List Comprehensions combine for loops and creation of new elements into one line, automatically appending each new element.
-
-    squares = [value**2 for value in range(1, 11)]
 
 #### 4-3. Counting to Twenty:
 
@@ -303,55 +232,6 @@ for num in cubes_comprehension:
     1000
 
 
-#### Working with Part of a List
-* Slice: A specific group of items in a list.
-
-#### Slicing a List
-* To slice, specify the index of the first and last elements you intend to work with:
-
-    list[1:4]
-    
-    Slice with indices 1-3.
-    
-    
-* list[:4]
-    
-    Instincitvelly begins slice at start of list when beginning index is not specified.
-    
-    
-* list[2:]
-
-    Instinctivelly ends slice at end of list when ending index is not specified.
-    
-    
-* list[-3:]
-
-    Slice including only last three elements of a list.
-    
-
-* A third value within the brackets for a slice indicates by how much to increment when sequencing a range of indices.
-
-#### Looping Through a Slice
-* for player in players[:3]:
-    
-    Loop through first three indices in a list.
-    
-#### Copying a List
-* Can make a slice including the entire original list:
-
-    list_1 = ...
-    
-    list_2 = list_1[:]
-    
-
-* Wrong!
-
-    list_1 = ...
-    
-    list_2 = list_1
-    
-    Makes each variable point to the same list.
-    
 #### 4-10. Slices:
 
 
@@ -461,22 +341,6 @@ for food in friend_foods:
     My friend's favorite foods are: pizza, falafel, carrot cake, and ice cream.
 
 
-#### Tuples
-* Tuple: List of items that cannot and should not be modified, are immutable.
-
-#### Defining a Tuple
-* Tuples defined using parentheses and not square brackets.
-* Tuple elements accessed like list elements.
-* To define a tuple with one element, need presence of a comma as that defines tuples:
-
-    my_tuple = (3,)
-    
-#### Looping Through All Values in a Tuple
-* Can use loops to iterate through tuples, literally very similar to a list.
-
-#### Writing over a Tuple
-* While tuples cannot be modified, can assign new values to variables representing a tuple.
-
 #### 4-13. Buffet:
 
 
@@ -538,7 +402,3 @@ for item in menu:
 
     In November, the restaurant will instead be offering: scrambled eggs, potato triangles, waffles, pancakes, and turkey.
 
-
-#### Styling Your Code
-* Important to write code that can be read!
-* Comments limited to 72 characters per line.
