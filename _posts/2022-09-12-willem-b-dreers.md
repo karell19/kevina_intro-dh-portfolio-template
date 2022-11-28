@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "Reading Reflection on Willem B. Dreers' "The Humanities""
+title:          "Reading Reflection on Willem B. Dreers"
 date:           "2022-09-21"
 categories:     jekyll update
 ---
