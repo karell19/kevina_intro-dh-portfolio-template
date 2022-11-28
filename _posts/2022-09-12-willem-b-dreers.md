@@ -4,7 +4,6 @@ title:          "Reading Reflection on Willem B. Dreers"
 date:           "2022-09-12"
 categories:     jekyll update
 ---
-## Reading Reflection on Willem B. Dreers' "The Humanities"
 Kevin Arellano Flores
 
 CLS-0161 - Introduction to Digital Humanities
