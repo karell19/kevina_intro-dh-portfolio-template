@@ -1,10 +1,9 @@
 ---
 layout:         post
 title:          "Reading Reflection on Willem B. Dreers"
-date:           2022-09-12
+date:           "2022-09-12"
 categories:     jekyll update
 ---
-
 ## Reading Reflection on Willem B. Dreers' "The Humanities"
 Kevin Arellano Flores
 
