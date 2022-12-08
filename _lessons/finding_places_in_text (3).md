@@ -1,6 +1,6 @@
 ---
 layout: page
-title: (IGNORE)
+title: (NOT WORKING) Finding Places in Text with the World Historical Gazeteer
 description: This Programming Historian lesson has taught me about the resources available to digital historians that allow them to learn about geographical locations mentioned throughout texts, and further, to visualize such locations for reconciliation and geocoding purposes. 
 ---
 
@@ -85,31 +85,31 @@ pip install spacy
 ```
 
     Requirement already satisfied: spacy in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (3.4.1)
-    Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.0.3)
     Requirement already satisfied: preshed<3.1.0,>=3.0.2 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (3.0.7)
-    Requirement already satisfied: numpy>=1.15.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.21.5)
-    Requirement already satisfied: jinja2 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.11.3)
-    Requirement already satisfied: thinc<8.2.0,>=8.1.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (8.1.3)
-    Requirement already satisfied: setuptools in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (61.2.0)
-    Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.0.6)
-    Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (4.64.0)
-    Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.0.8)
+    Requirement already satisfied: pathy>=0.3.5 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (0.6.2)
     Requirement already satisfied: requests<3.0.0,>=2.13.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.27.1)
     Requirement already satisfied: wasabi<1.1.0,>=0.9.1 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (0.10.1)
-    Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.9 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (3.0.10)
-    Requirement already satisfied: pydantic!=1.8,!=1.8.1,<1.10.0,>=1.7.4 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.9.2)
-    Requirement already satisfied: packaging>=20.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (21.3)
-    Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.0.8)
-    Requirement already satisfied: pathy>=0.3.5 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (0.6.2)
     Requirement already satisfied: srsly<3.0.0,>=2.4.3 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.4.4)
-    Requirement already satisfied: langcodes<4.0.0,>=3.2.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (3.3.0)
+    Requirement already satisfied: spacy-loggers<2.0.0,>=1.0.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.0.3)
     Requirement already satisfied: typer<0.5.0,>=0.3.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (0.4.2)
+    Requirement already satisfied: spacy-legacy<3.1.0,>=3.0.9 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (3.0.10)
+    Requirement already satisfied: tqdm<5.0.0,>=4.38.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (4.64.0)
+    Requirement already satisfied: pydantic!=1.8,!=1.8.1,<1.10.0,>=1.7.4 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.9.2)
+    Requirement already satisfied: numpy>=1.15.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.21.5)
+    Requirement already satisfied: cymem<2.1.0,>=2.0.2 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.0.6)
+    Requirement already satisfied: packaging>=20.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (21.3)
+    Requirement already satisfied: catalogue<2.1.0,>=2.0.6 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.0.8)
+    Requirement already satisfied: langcodes<4.0.0,>=3.2.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (3.3.0)
+    Requirement already satisfied: thinc<8.2.0,>=8.1.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (8.1.3)
+    Requirement already satisfied: setuptools in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (61.2.0)
+    Requirement already satisfied: jinja2 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (2.11.3)
+    Requirement already satisfied: murmurhash<1.1.0,>=0.28.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from spacy) (1.0.8)
     Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from packaging>=20.0->spacy) (3.0.4)
     Requirement already satisfied: smart-open<6.0.0,>=5.2.1 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from pathy>=0.3.5->spacy) (5.2.1)
     Requirement already satisfied: typing-extensions>=3.7.4.3 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from pydantic!=1.8,!=1.8.1,<1.10.0,>=1.7.4->spacy) (4.1.1)
     Requirement already satisfied: charset-normalizer~=2.0.0 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy) (2.0.4)
-    Requirement already satisfied: idna<4,>=2.5 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy) (3.3)
     Requirement already satisfied: urllib3<1.27,>=1.21.1 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy) (1.26.9)
+    Requirement already satisfied: idna<4,>=2.5 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy) (3.3)
     Requirement already satisfied: certifi>=2017.4.17 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from requests<3.0.0,>=2.13.0->spacy) (2021.10.8)
     Requirement already satisfied: blis<0.8.0,>=0.7.8 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from thinc<8.2.0,>=8.1.0->spacy) (0.7.8)
     Requirement already satisfied: confection<1.0.0,>=0.0.1 in /Users/kevin/opt/anaconda3/lib/python3.9/site-packages (from thinc<8.2.0,>=8.1.0->spacy) (0.0.3)
@@ -206,12 +206,28 @@ matches.append([pattern])
 
 
 ```python
+import requests
+response = requests.get('https://programminghistorian.org/assets/finding-places-world-historical-gazetteer/place_texts.txt')
+type(response)
+
+response_text = response.text
+type(response_text)
+
+from bs4 import BeautifulSoup
+soup = BeautifulSoup(response_text)
+print(type(soup))
+```
+
+    <class 'bs4.BeautifulSoup'>
+
+
+
+```python
 # Application of Matcher functions to various .txt files in a directory, through iteration.
 for file in Path('programming_historian').iterdir():
-    # read_text() method used to load text from files.
-    doc = nlp(file.read_text())
+    doc = nlp(file.read_text(encoding='utf8'))
     matches = matcher(doc)
-    for matcher_id, start, end in matches:
+    for match_id, start, end in matches:
         print(file.name, start, end, doc[start:end].text)
 ```
 
@@ -220,13 +236,12 @@ for file in Path('programming_historian').iterdir():
 
     UnicodeDecodeError                        Traceback (most recent call last)
 
-    Input In [13], in <cell line: 2>()
+    Input In [42], in <cell line: 2>()
           1 # Application of Matcher functions to various .txt files in a directory, through iteration.
           2 for file in Path('programming_historian').iterdir():
-          3     # read_text() method used to load text from files.
-    ----> 4     doc = nlp(file.read_text())
-          5     matches = matcher(doc)
-          6     for matcher_id, start, end in matches:
+    ----> 3     doc = nlp(file.read_text(encoding='utf8'))
+          4     matches = matcher(doc)
+          5     for match_id, start, end in matches:
 
 
     File ~/opt/anaconda3/lib/python3.9/pathlib.py:1267, in Path.read_text(self, encoding, errors)
