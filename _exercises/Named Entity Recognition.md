@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Named Entity Recognition (NER) on Gibbon's Decline and Fall of the Roman Empire, Chapter 01
-description: This notebook contains my application of NER on Gibbon's Decline and Fall of the Roman Empire.
+title: Named Entity Recognition (NER) on Gibbon's Decline and Fall of the Roman Empire
+description: This notebook contains my application of NER on Chapter 01 of Gibbon's Decline and Fall of the Roman Empire.
 ---
 # Named Entity Recognition (NER)
 Kevin Arellano Flores
