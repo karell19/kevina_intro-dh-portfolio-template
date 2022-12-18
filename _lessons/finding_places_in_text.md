@@ -9,7 +9,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 #### Finding Places in Text with Python
 * enumerate() method adds counter to iterable data, such as lists or tuples.

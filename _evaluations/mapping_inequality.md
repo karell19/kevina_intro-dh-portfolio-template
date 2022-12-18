@@ -9,7 +9,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 Mapping Inequality is a Geographic Information Systems project developed with the hope of bringing to light the ways in which government officials, lenders, and real estate interests propogated the effects of racial and class segregation in cities and communities across the United States through federal housing policy. Developed by three teams across four universities, this project provides easily-accessible and digitized content pertaining to the methods through which the Home Owners' Loan Corporation (HOLC) evaluated neighborhoods based on details such as quality of housing, sale and renting values, and racial and ethnic identity and class. In this way, this project also serves as a Digital Repository of sorts. Users may access, free-of-charge, digitized copies of those original documents produced by HOLC close to its inception per the New Deal.
 
