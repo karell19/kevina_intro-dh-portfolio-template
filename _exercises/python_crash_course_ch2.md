@@ -10,7 +10,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 #### Exercise 2-1. Simple Message:
 

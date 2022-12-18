@@ -9,7 +9,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanitites
 
-Professor Saxton
+Dr. Saxton
 
 #### 5-1. Conditional Tests:
 

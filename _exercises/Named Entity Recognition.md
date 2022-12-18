@@ -8,7 +8,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 ## Tasks:
 Named entity recognition (NER) is a branch of natural language processing that focuses on extracting the text of names or other semantically distinct ideas from a larger text and tagging according to its special meaning within a system. NER can be broken into two broad categories: algorithms which use deterministic rules to find names (find all tokens that match the regular expression: `([A-Z][a-z]+)`) and statisical models which make guesses about where an entity begins and ends.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Parse TEI
+title: Parse TEI - Gibbon's Decline and Fall of the Roman Empire
 description: This notebook contains my parsing of Gibbon's Decline and Fall of the Roman Empire in the form of TEI text.
 ---
 # Parsing a TEI Document - Assignment
@@ -8,7 +8,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 ## Instructions
 

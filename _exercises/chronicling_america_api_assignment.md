@@ -8,7 +8,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 ## Tasks:
 In this assignment, you are tasked with:

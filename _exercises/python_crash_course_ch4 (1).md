@@ -10,7 +10,7 @@ Kevin Arellano
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 #### 4-1. Pizzas:
 

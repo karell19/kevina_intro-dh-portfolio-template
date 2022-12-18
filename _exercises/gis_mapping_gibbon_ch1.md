@@ -8,7 +8,7 @@ Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 My GIS Mapping of Chapter 01 from Gibbon's "Decline and Fall of the Roman Empire" can be accessed at: https://arcg.is/irijv0
 
