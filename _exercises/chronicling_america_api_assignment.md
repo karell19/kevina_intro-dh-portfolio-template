@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Chronicling America - API Assignment
-description: This notebook contains my engagement with the Chronlicling America API 
+description: This notebook contains my engagement with the Chronlicling America API.
 ---
 ## Chronicling America API Assignment
 Kevin Arellano Flores
