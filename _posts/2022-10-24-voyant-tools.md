@@ -10,7 +10,7 @@ Kevin Arellano Flores
 
 CLS-0161 - Introduction to Digital Humanities
 
-Professor Saxton
+Dr. Saxton
 
 Voyant Tools is a web-based project designed with the intention of facilitating and encouraging analyses of texts, particularly those within the field of the Humanities. Given the opportunity to tinker with this curious resource, I decided to apply it on the "Personal Memoirs of U. S. Grant" by Ulysses S. Grant, the 18th President of the United States who occupied a critical position during the American Civil War as the commanding general of the Union Army. 
 
