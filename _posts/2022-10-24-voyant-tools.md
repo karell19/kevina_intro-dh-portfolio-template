@@ -4,8 +4,6 @@ title:  "Reading Reflection on Voyant Tools"
 date:   "2022-10-24"
 categories: jekyll update
 ---
-## Reading Reflection on the Application of Voyant Tools on the "Personal Memoirs of U. S. Grant" by Ulysses S. Grant.
-
 Kevin Arellano Flores
 
 CLS-0161 - Introduction to Digital Humanities
