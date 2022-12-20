@@ -10,10 +10,6 @@ CLS-0161 - Introduction to Digital Humanities
 
 Dr. Saxton
 
-CLS-0161 - Introduction to Digital Humanities
-
-Dr. Saxton
-
 The New York Times article, “Life in a Japanese-American Internment Camp, via the Diary of a Young Man,” by Patricia Leigh Brown details the 2015 “Out of the Desert: Resilience and Memory in Japanese American Internment” exhibition at Yale University, curated by Professor Courtney Sato
 
 The article focuses on Yonekazu Satuda’s reunion with the diary he had kept during his time spent at an Arkansas internment camp beginning in the year 1942. This diary, a part of this exhibit, is one of many materials collected from the United States’ internment camps, and through this exhibition, attempt to describe the “resilience and creativity that helped many detainees survive the forced removal from their homes and jobs and the harsh conditions in the remote campus that were ringed by sentry towers with armed guards.” This article brought up the fact that many of these materials were acquired from their original owners through indirect means. It mentioend that one such means was through the antiquarian trade, which I had not originally known the meaning of. It is interesting to read, and have heard from Professor Sato herself, the history of acquisition of many of these materials. The story of many of these materials arriving at Yale University through valiant efforts on the University’s part to buy/attain these materials from other sources, like that of Nathan Van Patten of Stanford University. I can only wonder what these Universities may hold in their libraries of archival materials? I found it interesting how these materials simply serving as simple outlets for these individuals, may have come to rack up incredible prices and value for these academic institutions. The story of Mr. Satoda helped put into perspective the significance of humanist evidence to the Humanities and to the field’s objective of understanding others’ lived experiences. 
