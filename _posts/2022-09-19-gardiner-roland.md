@@ -1,7 +1,7 @@
 ---
 layout:         post
 title:          "Reading Reflection on Eileen Gardiner and Musto G. Ronald"
-date:           "2022-09-26"
+date:           "2022-09-19"
 categories:     jekyll update
 ---
 Kevin Arellano Flores
