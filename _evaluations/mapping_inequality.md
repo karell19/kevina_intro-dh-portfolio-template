@@ -3,8 +3,6 @@ layout: page
 title: Mapping Inequality, Redlining in New Deal America
 description: An evaluation of the Mapping Inequality project.
 ---
-
-### Mapping Inequality: Redlining in New Deal America
 Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
