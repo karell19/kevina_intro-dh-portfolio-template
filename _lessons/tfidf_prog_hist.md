@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Analyzing Documents with TF-IDF
-description: em
+description: This Programming Historian lesson has taught me about the Term Frequency-Inverse Document Frequency analysis methodologies implemented by scholars of Data Science when seeking to derive the significance of a text corpus.
 ---
-### Analyzing Documents with TF-IDF
 Kevin Arellano Flores
 
 CLS-0161 -- Introduction to Digital Humanities
@@ -271,7 +270,10 @@ obituary_0101_df
 
 
 
+### Reflection
 
-```python
+This Programming Historian lesson provided me with a well-needed review of the idea of Term Frequency–Inverse Document Frequency (TF-IDF) and its potential provisioned to data science projects. TD-IDF is a method of deriving the most significant terms utilized by an author across a text; Significance is measured by this method in terms of the relation between a term's frequency in a text, and the same term's frequency in other texts. 
 
-```
+This lesson provided me with a set of texts upon which I was able to apply TF-IDF methodologies. Once applied, this method provides those words that are, for some reason, niche to a particular text. As a result, the term's emplacement in the text is made much more significant. Its application in the context of research would provide a small, yet incredibly insightful, glimpse into the essence of that text in focus.
+
+TF-IDF's most notable potential would apply when studying a vast and extensive text corpus. Given that a researcher is not single-handedly able to analyze and gain an understanding of hundreds of texts at a time--an understanding at any level of depth--methods such as TD-IDF provide the researcher the opportunity to connect with all those texts in a significantly faster, more efficient manner that permits and promotes the development of their research. For those researchers seeking an in-depth and complete understanding of a text, this method would not be suitable, as it demands that the user interpret the significance of those terms said to be most important to a text based on TF-IDF analyses.
