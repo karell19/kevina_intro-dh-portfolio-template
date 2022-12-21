@@ -1,6 +1,6 @@
 ---
 layout:         post
-title:          "Reading Reflection on Patricia Leigh Brown and Out of the Desrt"
+title:          "Reading Reflection on Patricia Leigh Brown and Out of the Desert"
 date:           "2022-11-28"
 categories:     jekyll update
 ---
