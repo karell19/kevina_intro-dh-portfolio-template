@@ -9203,4 +9203,4 @@ Saxton, Micah, and Peter Nadel. Topic Modeling. CLS-0161 Lesson on Topic Modelin
 
 Talmadge, Carolyn C. Geographic Information Systems (GIS). Presentation on Geographic Information Systems (GIS) Computational Methods in Python. 14 November 2022. Canvas. Accessed 2022.
 
-## Thank You to Dr. Micah Saxton and Peter Nadel, for all your help in realizing this project into fruition.
+## Thank you, Dr. Micah Saxton and Peter Nadel, for all your help in realizing this project into fruition.
